@@ -1,9 +1,12 @@
-import { Button } from "@/components/ui/button"
- 
-export default function Home() {
+import React from 'react'
+import Navbar from '@/components/Navbar/Navbar'
+
+const page = () => {
   return (
     <div>
-      <Button>Click me</Button>
+      <Navbar/>
     </div>
   )
 }
+
+export default page
